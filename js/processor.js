@@ -33,7 +33,7 @@ writer.on('closed', function(){
 //##########################################
 var readerInbound = new nsq.Reader('topic', 'channel', {
     lookupdHTTPAddresses:  '127.0.0.1:4161', 
-    maxInFlight: 1,
+    maxInFlight: 20,
     maxAttempts: 0
 });
 readerInbound.connect(); 
@@ -43,7 +43,8 @@ readerInbound.on('message', function (msg) {
     var jsonString = msg.body.toString(); 
     var obj = JSON.parse(jsonString); 
     //update(msg); 
-    writer.publish('outBoundTopic', msg); 
+    console.log("Publishing : " + jsonString); 
+    writer.publish('outBoundTopic', jsonString); 
     msg.finish();
 });
 //all available readerInbound events below
@@ -57,7 +58,9 @@ readerInbound.on('close', function () {
 
 //##########################################
 var clientReader = new nsq.Reader('outBoundTopic', 'channel', {
-    lookupdHTTPAddresses:  '127.0.0.1:4161'
+    lookupdHTTPAddresses:  '127.0.0.1:4161', 
+    maxInFlight: 20,
+    maxAttempts: 0
 });
 clientReader.connect(); 
 //all available clientReader events below
