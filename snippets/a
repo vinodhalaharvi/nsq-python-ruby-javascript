@@ -1,0 +1,120 @@
+//message properties and methods
+snippet nmtimestamp "nsq message timestamp"
+message.timestamp ${0}
+snippet nmattempts "nsq message attempts"
+message.attempts ${0}
+snippet nmid "nsq message id"
+message.id ${0}
+snippet nmhasresponded "nsq message hasResponded"
+message.hasResponded ${0}
+snippet nmbody "nsq message  body"
+message.body ${0}
+snippet nmjson "nsq message json"
+message.json() ${0}
+snippet nmtimeuntiltimeout "nsq message timeUntilTimeout"
+message.timeUntilTimeout(hard=false): ${0}
+snippet nmfinish "nsq message finish"
+message.finish() ${0}
+snippet nmrequeue "nsq message requeue"
+message.requeue(delay=null, backoff=true) ${0}
+snippet nmtouch "nsq message touch"
+message.touch() ${0}
+
+snippet nwoptions "nsq writer all options"
+//writer options
+var writer = new nsq.Writer('${1:127.0.0.1}', ${2:4150}, {
+    tls: false,
+    tlsVerification: true,
+    deflate: false,
+    deflateLevel: 6,
+    snappy: false,
+    clientId: null
+});
+writer.connect();
+${0}
+
+snippet nwi "nsq writer intialize"
+var writer = new nsq.Writer('${1:127.0.0.1}', ${2:4150});
+writer.connect();
+${0}
+
+//writer events
+//ready closed error
+snippet nwo "nsq writer on event handler"
+writer.on('${1:ready}', function () {
+   ${2} 
+});
+${0}
+
+//writer methods
+snippet nwconnect "nsq write connect"
+writer.connect(); 
+${0}
+
+snippet nwclose "nsq writer close"
+writer.close(); 
+${0}
+
+snippet nwpublish "nsq writer publish"
+writer.publish(${1:topic}, ${2:message}, ${3:[callback]}); 
+${0}
+
+
+//READER 
+//reader methods
+snippet nrconnect "nsq reader connect"
+reader.connect() 
+
+snippet nrclose "nsq reader close"
+reader.close() 
+
+snippet nrpause "nsq reader pause"
+reader.pause() 
+
+snippet nrunpause "nsq reader unpause"
+reader.unpause() 
+
+snippet nrispaused "nsq reader ispaused"
+reader.isPaused() 
+
+
+snippet nri "nsq reader initialize"
+    var nsq = require('nsqjs');
+    var reader = new nsq.Reader('${1:topic}', '${2:channel}', {
+      lookupdHTTPAddresses:  '${3:127.0.0.1:4161}'
+    });
+
+snippet nrc "nsq reader connect"
+    reader.connect();
+
+snippet nro "nsq reader on events"
+    //all available reader events below
+    //message discard error nsqd_connected nsqd_closed
+    reader.on('${1:message}', function (msg) {
+      console.log('Received message [%s]: %s', msg.id, msg.body.toString());
+      msg.finish();
+    });
+    ${0}
+
+snippet nroptions "all reader options"
+snippet nrop
+{
+    maxInFlight: 1,
+    heartbeatInterval: 30,
+    maxBackoffDuration: 128,
+    maxAttempts: 0,
+    requeueDelay: 90,
+    lookupdPollInterval: 60,
+    lookupdPollJitter: 0.3,
+    tls: false,
+    tlsVerification: true,
+    deflate: false,
+    deflateLevel: 6,
+    snappy: false,
+    authSecret: null,
+    ouputBufferSize: null,
+    outputBufferTimeout: null,
+    messageTimeout: null,
+    sampleRate: null,
+    clientId: null
+}
