@@ -77,6 +77,8 @@ readerInbound.on('message', function (msg) {
         writer.publish('outBoundTopic', {video_id: obj.video_id, count: count[obj.video_id]}); 
         count[obj.video_id].changed = false; 
         msg.finish();
+    } else { 
+        msg.finish();
     } 
 });
 //all available readerInbound events below
@@ -88,9 +90,11 @@ readerInbound.on('close', function () {
 //publish the rest
 setTimeout(function(){
     for (var i = 0, len = 100; i < len; i++) {
-        if (count[i].count >= thresholdFilterCount) { 
-            writer.publish('outBoundTopic', {video_id: i, count: count[i]}); 
-            count[i].changed = false; 
+        if (count[i] && count[i].hasOwnProperty("count")) {
+            if (count[i].count >= thresholdFilterCount) { 
+                writer.publish('outBoundTopic', {video_id: i, count: count[i]}); 
+                count[i].changed = false; 
+            }
         }
     }
 }, 7000 - 100); 
@@ -110,3 +114,29 @@ clientReader.on('message', function (msg) {
     console.log("clientReader : " + msg.body.toString()); 
     msg.finish();
 });
+
+
+//##########################################
+// test to see if the new messages are going in fine
+// playid less than 15
+setTimeout(function(){
+    for (var i = 0, len = 10; i < len; i++) {
+        var playid = parseInt(Math.random(2).toString().slice(12)) % 15; 
+        var msg = {video_id: playid, video_name: "awesome video " + playid}; 
+        writer.publish('topic', msg); 
+        if(count[i] && count[i].hasOwnProperty("count"))
+            count[i].changed = false; 
+        totalPublished++; 
+    } 
+}, 10000); 
+
+setTimeout(function(){
+    for (var i = 0, len = 10; i < len; i++) {
+        var playid = (parseInt(Math.random(2).toString().slice(12)) % 15) + 14; 
+        var msg = {video_id: playid, video_name: "awesome video " + playid}; 
+        writer.publish('topic', msg); 
+        if(count[i] && count[i].hasOwnProperty("count"))
+            count[i].changed = false; 
+        totalPublished++; 
+    } 
+}, 15000); 
