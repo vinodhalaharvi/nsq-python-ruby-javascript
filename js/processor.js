@@ -1,8 +1,9 @@
 var nsq = require('nsqjs');
 var totalPublished = 0 ; 
-var countThreshold = 55; 
+var countThreshold = 15; 
 var playIDMax = 5; 
-var sampleData = 200;
+var sampleData = 1000;
+var clientMessageCount = 0; 
 
 //utility functions
 count = {}; 
@@ -21,26 +22,18 @@ var update = function(obj){
     }
 }; 
 
-
 //##########################################
 var writer = new nsq.Writer('127.0.0.1', 4150);
 writer.connect();
 writer.on('ready', function () {
     for (var i = 0; i < sampleData; i++) {
-        //var playid = parseInt(Math.random(2).toString().slice(12)) % 5; 
-        var playid = 3; 
+        var playid = parseInt(Math.random(2).toString().slice(12)) % playIDMax; 
         var msg = {video_id: playid, video_name: "awesome video " + playid}; 
         writer.publish('topic', msg); 
         totalPublished++; 
+        process.stdout.write("\r Total data published = " +  totalPublished); 
     } 
-    for (var i = 0; i < sampleData; i++) {
-        //var playid = parseInt(Math.random(2).toString().slice(12)) % 5; 
-        var playid = 2; 
-        var msg = {video_id: playid, video_name: "awesome video " + playid}; 
-        writer.publish('topic', msg); 
-        totalPublished++; 
-    } 
-    console.log("Total data publised = %d", totalPublished); 
+    //console.log("Total data publised = %d", totalPublished); 
 });
 writer.on('closed', function(){
     console.log("writer close .. "); 
@@ -82,7 +75,7 @@ setTimeout(function(){
             }
         }
     }
-}, 7000 - 100); 
+}, 5000 - 100); 
 readerInbound.on('close', function () {
     console.log("readerInbound closed .. "); 
 });
@@ -96,7 +89,7 @@ var clientReader = new nsq.Reader('outBoundTopic', 'channel', {
 });
 clientReader.connect(); 
 clientReader.on('message', function (msg) {
-    console.log("reading outBoundTopic : " + msg.body.toString()); 
+    //console.log("reading outBoundTopic : " + msg.body.toString()); 
     clientReaderCount++; 
     msg.finish();
 });
@@ -105,11 +98,12 @@ clientReader.on('message', function (msg) {
 //finally print how many messages have been delivered to the
 // client
 setTimeout(function(){
-    var clientMessageCount = 0; 
     for (var i = 0, len = playIDMax; i < len; i++) {
         if (count[i] && count[i].hasOwnProperty("count")) {
             clientMessageCount += count[i].count; 
         }
     }
-    console.log("clientReaderCount is: %d", clientMessageCount); 
-}, 10000); 
+    //console.log("clientReaderCount is: %d", clientMessageCount); 
+    process.stdout.write("\r                                                             "); 
+    process.stdout.write("\r clientReaderCount is : " +  clientMessageCount); 
+}, 9000); 
