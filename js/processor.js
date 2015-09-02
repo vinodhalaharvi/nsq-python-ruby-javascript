@@ -4,6 +4,7 @@ var countThreshold = 5;
 var playIDMax = 2; 
 var sampleData = 100;
 var clientMessageCount = 0; 
+var clientBatchSize = 2; 
 
 //##########################################
 //utility functions
@@ -23,6 +24,17 @@ var update = function(obj){
     }
 }; 
 
+var print = function(){ 
+        //console.log(JSON.stringify(messages[i])); 
+        process.stdout.write("\r wtopic = " +  totalPublished 
+                             + " rtopic = " + readInboundCount
+                             + " clientReaderCount = " + clientReaderCount
+                            ); 
+}; 
+
+
+
+
 //##########################################
 //write sample data to the inbound queue
 var writer = new nsq.Writer('127.0.0.1', 4150);
@@ -36,9 +48,10 @@ writer.on('ready', function () {
         process.stdout.write("\r wtopic = " +  totalPublished + " rtopic = " + readInboundCount); 
     } 
     //console.log("Total data publised = %d", totalPublished); 
+    print(); 
 });
 writer.on('closed', function(){
-    //console.log("writer close .. "); 
+    console.log("writer close .. "); 
 }); 
 
 
@@ -58,21 +71,16 @@ readerInbound.on('message', function (msg) {
     var jsonString = msg.body.toString(); 
     var obj = JSON.parse(jsonString); 
     var body = msg.body; 
-    //console.log(' reader Inbound : ' + body.toString()); 
     readInboundCount++; 
-    process.stdout.write("\r wtopic = " +  totalPublished + " rtopic = " + readInboundCount); 
+    print(); 
     update(obj); 
     if (count[obj.video_id].count < countThreshold) { 
         writer.publish('outBoundTopic', {video_id: obj.video_id, count: count[obj.video_id].count}); 
         count[obj.video_id].changed = false; 
         msg.finish();
-        /*console.log('writing outBound: ' 
-                    + JSON.stringify({video_id: obj.video_id, 
-                                     count: count[obj.video_id]})); */
     } else { 
         msg.finish();
     } 
-    //writer.publish('outBoundTopic', body.toString()); 
 });
 setTimeout(function(){
     for (var i = 0, len = playIDMax; i < len; i++) {
@@ -80,13 +88,12 @@ setTimeout(function(){
             if (count[i].count >= countThreshold) { 
                 count[i].changed = false; 
                 writer.publish('outBoundTopic', {video_id: i, count: count[i].count}); 
-                //console.log('writing outBound: ' + JSON.stringify({video_id: i, count: count[i]})); 
             }
         }
     }
 }, 6000);  // in 6 seconds 
 readerInbound.on('close', function () {
-    //console.log("readerInbound closed .. "); 
+    console.log("readerInbound closed .. "); 
 });
 
 
@@ -100,8 +107,9 @@ var clientReader = new nsq.Reader('outBoundTopic', 'channel', {
 });
 clientReader.connect(); 
 var clientCallback = function(messages){
+    console.log("\n"); 
     for (var i = 0, len = messages.length; i < len; i++) {
-        process.stdout.write("\r clientMessageCount is : " + JSON.stringify(messages[i])); 
+        console.log(JSON.stringify(messages[i])); 
     }
 }; 
 var aggregateCount = {}; 
@@ -109,32 +117,26 @@ var clientMessages = [];
 var clientMessageCount = 0; 
 var changed = []; 
 clientReader.on('message', function (msg) {
-    //console.log("reading outBoundTopic : " + msg.body.toString()); 
     msg.finish();
-    clientMessages.push(msg.body.toString()); 
     var jsonString = msg.body.toString(); 
     var obj = JSON.parse(jsonString); 
-    console.log(jsonString); 
-    return; 
-    if (aggregateCount[obj.video_id]) { 
-        aggregateCount[obj.video_id] += obj.count; 
-    } else { 
+    if (!aggregateCount[obj.video_id]) { 
         clientMessageCount++; 
-        aggregateCount[obj.video_id] = 1; 
         changed.push(obj.video_id); 
-    }
-    if (clientMessageCount >= 2){ 
-        for (var i = 0, len = changed.length; i < len; i++) {
-            clientMessages.push({video_id: changed[i], count: aggregateCount[changed[i]].count})
-        }
+    } 
+    aggregateCount[obj.video_id] = obj.count; 
+    if (clientMessageCount >= clientBatchSize){ 
         clientMessageCount = 0; 
-        process.stdout.write("\n"); 
+        clientMessages= []; 
+        for (var i = 0, len = changed.length; i < len; i++) {
+            clientMessages.push({video_id: changed[i], count: aggregateCount[changed[i]]})
+        }
         clientCallback(clientMessages); 
-        clientMessages = []; 
+        aggregateCount = {}; 
+        changed = []; 
     }
     clientReaderCount++; 
 });
-
 
 
 //##########################################
@@ -146,6 +148,5 @@ setTimeout(function(){
             clientMessageCount += count[i].count; 
         }
     }
-    //console.log("clientReaderCount is: %d", clientMessageCount); 
     //process.stdout.write("\n\n\r clientReaderCount is : " +  clientMessageCount); 
 }, 9000); 
