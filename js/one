@@ -1,200 +1,251 @@
-Publishing : {"video_id":0,"video_name":"awesome video 0"}
-Publishing : {"video_id":1,"video_name":"awesome video 1"}
-Publishing : {"video_id":2,"video_name":"awesome video 2"}
-Publishing : {"video_id":3,"video_name":"awesome video 3"}
-Publishing : {"video_id":4,"video_name":"awesome video 4"}
-Publishing : {"video_id":5,"video_name":"awesome video 5"}
-Publishing : {"video_id":6,"video_name":"awesome video 6"}
-Publishing : {"video_id":7,"video_name":"awesome video 7"}
-Publishing : {"video_id":8,"video_name":"awesome video 8"}
-Publishing : {"video_id":9,"video_name":"awesome video 9"}
-Publishing : {"video_id":10,"video_name":"awesome video 10"}
-Publishing : {"video_id":11,"video_name":"awesome video 11"}
-Publishing : {"video_id":12,"video_name":"awesome video 12"}
-Publishing : {"video_id":13,"video_name":"awesome video 13"}
-Publishing : {"video_id":14,"video_name":"awesome video 14"}
-Publishing : {"video_id":15,"video_name":"awesome video 15"}
-Publishing : {"video_id":16,"video_name":"awesome video 16"}
-Publishing : {"video_id":17,"video_name":"awesome video 17"}
-Publishing : {"video_id":18,"video_name":"awesome video 18"}
-Publishing : {"video_id":19,"video_name":"awesome video 19"}
-Publishing : {"video_id":20,"video_name":"awesome video 20"}
-Publishing : {"video_id":21,"video_name":"awesome video 21"}
-Publishing : {"video_id":22,"video_name":"awesome video 22"}
-Publishing : {"video_id":23,"video_name":"awesome video 23"}
-Publishing : {"video_id":24,"video_name":"awesome video 24"}
-Publishing : {"video_id":25,"video_name":"awesome video 25"}
-Publishing : {"video_id":26,"video_name":"awesome video 26"}
-Publishing : {"video_id":27,"video_name":"awesome video 27"}
-Publishing : {"video_id":28,"video_name":"awesome video 28"}
-Publishing : {"video_id":29,"video_name":"awesome video 29"}
-Publishing : {"video_id":30,"video_name":"awesome video 30"}
-Publishing : {"video_id":31,"video_name":"awesome video 31"}
-Publishing : {"video_id":32,"video_name":"awesome video 32"}
-Publishing : {"video_id":33,"video_name":"awesome video 33"}
-Publishing : {"video_id":34,"video_name":"awesome video 34"}
-Publishing : {"video_id":35,"video_name":"awesome video 35"}
-Publishing : {"video_id":36,"video_name":"awesome video 36"}
-Publishing : {"video_id":37,"video_name":"awesome video 37"}
-Publishing : {"video_id":38,"video_name":"awesome video 38"}
-Publishing : {"video_id":39,"video_name":"awesome video 39"}
-clientReader: {"video_id":0,"video_name":"awesome video 0"}
-clientReader: {"video_id":1,"video_name":"awesome video 1"}
-clientReader: {"video_id":2,"video_name":"awesome video 2"}
-clientReader: {"video_id":3,"video_name":"awesome video 3"}
-clientReader: {"video_id":4,"video_name":"awesome video 4"}
-clientReader: {"video_id":5,"video_name":"awesome video 5"}
-clientReader: {"video_id":6,"video_name":"awesome video 6"}
-clientReader: {"video_id":7,"video_name":"awesome video 7"}
-clientReader: {"video_id":8,"video_name":"awesome video 8"}
-clientReader: {"video_id":9,"video_name":"awesome video 9"}
-clientReader: {"video_id":10,"video_name":"awesome video 10"}
-clientReader: {"video_id":11,"video_name":"awesome video 11"}
-clientReader: {"video_id":12,"video_name":"awesome video 12"}
-clientReader: {"video_id":13,"video_name":"awesome video 13"}
-clientReader: {"video_id":14,"video_name":"awesome video 14"}
-clientReader: {"video_id":15,"video_name":"awesome video 15"}
-clientReader: {"video_id":16,"video_name":"awesome video 16"}
-clientReader: {"video_id":17,"video_name":"awesome video 17"}
-clientReader: {"video_id":18,"video_name":"awesome video 18"}
-clientReader: {"video_id":19,"video_name":"awesome video 19"}
-Publishing : {"video_id":40,"video_name":"awesome video 40"}
-clientReader: {"video_id":20,"video_name":"awesome video 20"}
-Publishing : {"video_id":41,"video_name":"awesome video 41"}
-Publishing : {"video_id":42,"video_name":"awesome video 42"}
-Publishing : {"video_id":43,"video_name":"awesome video 43"}
-Publishing : {"video_id":44,"video_name":"awesome video 44"}
-Publishing : {"video_id":45,"video_name":"awesome video 45"}
-Publishing : {"video_id":46,"video_name":"awesome video 46"}
-Publishing : {"video_id":47,"video_name":"awesome video 47"}
-Publishing : {"video_id":48,"video_name":"awesome video 48"}
-Publishing : {"video_id":49,"video_name":"awesome video 49"}
-Publishing : {"video_id":50,"video_name":"awesome video 50"}
-Publishing : {"video_id":51,"video_name":"awesome video 51"}
-Publishing : {"video_id":52,"video_name":"awesome video 52"}
-Publishing : {"video_id":53,"video_name":"awesome video 53"}
-Publishing : {"video_id":54,"video_name":"awesome video 54"}
-Publishing : {"video_id":55,"video_name":"awesome video 55"}
-Publishing : {"video_id":56,"video_name":"awesome video 56"}
-Publishing : {"video_id":57,"video_name":"awesome video 57"}
-Publishing : {"video_id":58,"video_name":"awesome video 58"}
-Publishing : {"video_id":59,"video_name":"awesome video 59"}
-Publishing : {"video_id":60,"video_name":"awesome video 60"}
-Publishing : {"video_id":61,"video_name":"awesome video 61"}
-clientReader: {"video_id":21,"video_name":"awesome video 21"}
-clientReader: {"video_id":22,"video_name":"awesome video 22"}
-clientReader: {"video_id":23,"video_name":"awesome video 23"}
-clientReader: {"video_id":24,"video_name":"awesome video 24"}
-clientReader: {"video_id":25,"video_name":"awesome video 25"}
-clientReader: {"video_id":26,"video_name":"awesome video 26"}
-clientReader: {"video_id":27,"video_name":"awesome video 27"}
-clientReader: {"video_id":28,"video_name":"awesome video 28"}
-clientReader: {"video_id":29,"video_name":"awesome video 29"}
-clientReader: {"video_id":30,"video_name":"awesome video 30"}
-clientReader: {"video_id":31,"video_name":"awesome video 31"}
-clientReader: {"video_id":32,"video_name":"awesome video 32"}
-clientReader: {"video_id":33,"video_name":"awesome video 33"}
-clientReader: {"video_id":34,"video_name":"awesome video 34"}
-clientReader: {"video_id":35,"video_name":"awesome video 35"}
-clientReader: {"video_id":36,"video_name":"awesome video 36"}
-clientReader: {"video_id":37,"video_name":"awesome video 37"}
-clientReader: {"video_id":38,"video_name":"awesome video 38"}
-clientReader: {"video_id":39,"video_name":"awesome video 39"}
-clientReader: {"video_id":40,"video_name":"awesome video 40"}
-clientReader: {"video_id":41,"video_name":"awesome video 41"}
-Publishing : {"video_id":62,"video_name":"awesome video 62"}
-Publishing : {"video_id":63,"video_name":"awesome video 63"}
-Publishing : {"video_id":64,"video_name":"awesome video 64"}
-Publishing : {"video_id":65,"video_name":"awesome video 65"}
-Publishing : {"video_id":66,"video_name":"awesome video 66"}
-Publishing : {"video_id":67,"video_name":"awesome video 67"}
-Publishing : {"video_id":68,"video_name":"awesome video 68"}
-Publishing : {"video_id":69,"video_name":"awesome video 69"}
-Publishing : {"video_id":70,"video_name":"awesome video 70"}
-Publishing : {"video_id":71,"video_name":"awesome video 71"}
-Publishing : {"video_id":72,"video_name":"awesome video 72"}
-Publishing : {"video_id":73,"video_name":"awesome video 73"}
-Publishing : {"video_id":74,"video_name":"awesome video 74"}
-Publishing : {"video_id":75,"video_name":"awesome video 75"}
-Publishing : {"video_id":76,"video_name":"awesome video 76"}
-Publishing : {"video_id":77,"video_name":"awesome video 77"}
-Publishing : {"video_id":78,"video_name":"awesome video 78"}
-Publishing : {"video_id":79,"video_name":"awesome video 79"}
-Publishing : {"video_id":80,"video_name":"awesome video 80"}
-Publishing : {"video_id":81,"video_name":"awesome video 81"}
-Publishing : {"video_id":82,"video_name":"awesome video 82"}
-clientReader: {"video_id":42,"video_name":"awesome video 42"}
-clientReader: {"video_id":43,"video_name":"awesome video 43"}
-clientReader: {"video_id":44,"video_name":"awesome video 44"}
-clientReader: {"video_id":45,"video_name":"awesome video 45"}
-clientReader: {"video_id":46,"video_name":"awesome video 46"}
-clientReader: {"video_id":47,"video_name":"awesome video 47"}
-clientReader: {"video_id":48,"video_name":"awesome video 48"}
-clientReader: {"video_id":49,"video_name":"awesome video 49"}
-clientReader: {"video_id":50,"video_name":"awesome video 50"}
-clientReader: {"video_id":51,"video_name":"awesome video 51"}
-clientReader: {"video_id":52,"video_name":"awesome video 52"}
-clientReader: {"video_id":53,"video_name":"awesome video 53"}
-clientReader: {"video_id":54,"video_name":"awesome video 54"}
-clientReader: {"video_id":55,"video_name":"awesome video 55"}
-clientReader: {"video_id":56,"video_name":"awesome video 56"}
-clientReader: {"video_id":57,"video_name":"awesome video 57"}
-clientReader: {"video_id":58,"video_name":"awesome video 58"}
-clientReader: {"video_id":59,"video_name":"awesome video 59"}
-clientReader: {"video_id":60,"video_name":"awesome video 60"}
-clientReader: {"video_id":61,"video_name":"awesome video 61"}
-clientReader: {"video_id":62,"video_name":"awesome video 62"}
-Publishing : {"video_id":83,"video_name":"awesome video 83"}
-Publishing : {"video_id":84,"video_name":"awesome video 84"}
-Publishing : {"video_id":85,"video_name":"awesome video 85"}
-Publishing : {"video_id":86,"video_name":"awesome video 86"}
-Publishing : {"video_id":87,"video_name":"awesome video 87"}
-Publishing : {"video_id":88,"video_name":"awesome video 88"}
-Publishing : {"video_id":89,"video_name":"awesome video 89"}
-Publishing : {"video_id":90,"video_name":"awesome video 90"}
-Publishing : {"video_id":91,"video_name":"awesome video 91"}
-Publishing : {"video_id":92,"video_name":"awesome video 92"}
-Publishing : {"video_id":93,"video_name":"awesome video 93"}
-Publishing : {"video_id":94,"video_name":"awesome video 94"}
-Publishing : {"video_id":95,"video_name":"awesome video 95"}
-Publishing : {"video_id":96,"video_name":"awesome video 96"}
-Publishing : {"video_id":97,"video_name":"awesome video 97"}
-Publishing : {"video_id":98,"video_name":"awesome video 98"}
-Publishing : {"video_id":99,"video_name":"awesome video 99"}
-clientReader: {"video_id":63,"video_name":"awesome video 63"}
-clientReader: {"video_id":64,"video_name":"awesome video 64"}
-clientReader: {"video_id":65,"video_name":"awesome video 65"}
-clientReader: {"video_id":66,"video_name":"awesome video 66"}
-clientReader: {"video_id":67,"video_name":"awesome video 67"}
-clientReader: {"video_id":68,"video_name":"awesome video 68"}
-clientReader: {"video_id":69,"video_name":"awesome video 69"}
-clientReader: {"video_id":70,"video_name":"awesome video 70"}
-clientReader: {"video_id":71,"video_name":"awesome video 71"}
-clientReader: {"video_id":72,"video_name":"awesome video 72"}
-clientReader: {"video_id":73,"video_name":"awesome video 73"}
-clientReader: {"video_id":74,"video_name":"awesome video 74"}
-clientReader: {"video_id":75,"video_name":"awesome video 75"}
-clientReader: {"video_id":76,"video_name":"awesome video 76"}
-clientReader: {"video_id":77,"video_name":"awesome video 77"}
-clientReader: {"video_id":78,"video_name":"awesome video 78"}
-clientReader: {"video_id":79,"video_name":"awesome video 79"}
-clientReader: {"video_id":80,"video_name":"awesome video 80"}
-clientReader: {"video_id":81,"video_name":"awesome video 81"}
-clientReader: {"video_id":82,"video_name":"awesome video 82"}
-clientReader: {"video_id":83,"video_name":"awesome video 83"}
-clientReader: {"video_id":84,"video_name":"awesome video 84"}
-clientReader: {"video_id":85,"video_name":"awesome video 85"}
-clientReader: {"video_id":86,"video_name":"awesome video 86"}
-clientReader: {"video_id":87,"video_name":"awesome video 87"}
-clientReader: {"video_id":88,"video_name":"awesome video 88"}
-clientReader: {"video_id":89,"video_name":"awesome video 89"}
-clientReader: {"video_id":90,"video_name":"awesome video 90"}
-clientReader: {"video_id":91,"video_name":"awesome video 91"}
-clientReader: {"video_id":92,"video_name":"awesome video 92"}
-clientReader: {"video_id":93,"video_name":"awesome video 93"}
-clientReader: {"video_id":94,"video_name":"awesome video 94"}
-clientReader: {"video_id":95,"video_name":"awesome video 95"}
-clientReader: {"video_id":96,"video_name":"awesome video 96"}
-clientReader: {"video_id":97,"video_name":"awesome video 97"}
-clientReader: {"video_id":98,"video_name":"awesome video 98"}
-clientReader: {"video_id":99,"video_name":"awesome video 99"}
+ Total data published = 1 Total data published = 2 Total data published = 3 Total data published = 4 Total data published = 5 Total data published = 6 Total data published = 7 Total data published = 8 Total data published = 9 Total data published = 10 Total data published = 11 Total data published = 12 Total data published = 13 Total data published = 14 Total data published = 15 Total data published = 16 Total data published = 17 Total data published = 18 Total data published = 19 Total data published = 20 Total data published = 21 Total data published = 22 Total data published = 23 Total data published = 24 Total data published = 25 Total data published = 26 Total data published = 27 Total data published = 28 Total data published = 29 Total data published = 30 Total data published = 31 Total data published = 32 Total data published = 33 Total data published = 34 Total data published = 35 Total data published = 36 Total data published = 37 Total data published = 38 Total data published = 39 Total data published = 40 Total data published = 41 Total data published = 42 Total data published = 43 Total data published = 44 Total data published = 45 Total data published = 46 Total data published = 47 Total data published = 48 Total data published = 49 Total data published = 50 Total data published = 51 Total data published = 52 Total data published = 53 Total data published = 54 Total data published = 55 Total data published = 56 Total data published = 57 Total data published = 58 Total data published = 59 Total data published = 60 Total data published = 61 Total data published = 62 Total data published = 63 Total data published = 64 Total data published = 65 Total data published = 66 Total data published = 67 Total data published = 68 Total data published = 69 Total data published = 70 Total data published = 71 Total data published = 72 Total data published = 73 Total data published = 74 Total data published = 75 Total data published = 76 Total data published = 77 Total data published = 78 Total data published = 79 Total data published = 80 Total data published = 81 Total data published = 82 Total data published = 83 Total data published = 84 Total data published = 85 Total data published = 86 Total data published = 87 Total data published = 88 Total data published = 89 Total data published = 90 Total data published = 91 Total data published = 92 Total data published = 93 Total data published = 94 Total data published = 95 Total data published = 96 Total data published = 97 Total data published = 98 Total data published = 99 Total data published = 100 Total data published = 101 Total data published = 102 Total data published = 103 Total data published = 104 Total data published = 105 Total data published = 106 Total data published = 107 Total data published = 108 Total data published = 109 Total data published = 110 Total data published = 111 Total data published = 112 Total data published = 113 Total data published = 114 Total data published = 115 Total data published = 116 Total data published = 117 Total data published = 118 Total data published = 119 Total data published = 120 Total data published = 121 Total data published = 122 Total data published = 123 Total data published = 124 Total data published = 125 Total data published = 126 Total data published = 127 Total data published = 128 Total data published = 129 Total data published = 130 Total data published = 131 Total data published = 132 Total data published = 133 Total data published = 134 Total data published = 135 Total data published = 136 Total data published = 137 Total data published = 138 Total data published = 139 Total data published = 140 Total data published = 141 Total data published = 142 Total data published = 143 Total data published = 144 Total data published = 145 Total data published = 146 Total data published = 147 Total data published = 148 Total data published = 149 Total data published = 150 Total data published = 151 Total data published = 152 Total data published = 153 Total data published = 154 Total data published = 155 Total data published = 156 Total data published = 157 Total data published = 158 Total data published = 159 Total data published = 160 Total data published = 161 Total data published = 162 Total data published = 163 Total data published = 164 Total data published = 165 Total data published = 166 Total data published = 167 Total data published = 168 Total data published = 169 Total data published = 170 Total data published = 171 Total data published = 172 Total data published = 173 Total data published = 174 Total data published = 175 Total data published = 176 Total data published = 177 Total data published = 178 Total data published = 179 Total data published = 180 Total data published = 181 Total data published = 182 Total data published = 183 Total data published = 184 Total data published = 185 Total data published = 186 Total data published = 187 Total data published = 188 Total data published = 189 Total data published = 190 Total data published = 191 Total data published = 192 Total data published = 193 Total data published = 194 Total data published = 195 Total data published = 196 Total data published = 197 Total data published = 198 Total data published = 199 Total data published = 200 Total data published = 201 Total data published = 202 Total data published = 203 Total data published = 204 Total data published = 205 Total data published = 206 Total data published = 207 Total data published = 208 Total data published = 209 Total data published = 210 Total data published = 211 Total data published = 212 Total data published = 213 Total data published = 214 Total data published = 215 Total data published = 216 Total data published = 217 Total data published = 218 Total data published = 219 Total data published = 220 Total data published = 221 Total data published = 222 Total data published = 223 Total data published = 224 Total data published = 225 Total data published = 226 Total data published = 227 Total data published = 228 Total data published = 229 Total data published = 230 Total data published = 231 Total data published = 232 Total data published = 233 Total data published = 234 Total data published = 235 Total data published = 236 Total data published = 237 Total data published = 238 Total data published = 239 Total data published = 240 Total data published = 241 Total data published = 242 Total data published = 243 Total data published = 244 Total data published = 245 Total data published = 246 Total data published = 247 Total data published = 248 Total data published = 249 Total data published = 250 Total data published = 251 Total data published = 252 Total data published = 253 Total data published = 254 Total data published = 255 Total data published = 256 Total data published = 257 Total data published = 258 Total data published = 259 Total data published = 260 Total data published = 261 Total data published = 262 Total data published = 263 Total data published = 264 Total data published = 265 Total data published = 266 Total data published = 267 Total data published = 268 Total data published = 269 Total data published = 270 Total data published = 271 Total data published = 272 Total data published = 273 Total data published = 274 Total data published = 275 Total data published = 276 Total data published = 277 Total data published = 278 Total data published = 279 Total data published = 280 Total data published = 281 Total data published = 282 Total data published = 283 Total data published = 284 Total data published = 285 Total data published = 286 Total data published = 287 Total data published = 288 Total data published = 289 Total data published = 290 Total data published = 291 Total data published = 292 Total data published = 293 Total data published = 294 Total data published = 295 Total data published = 296 Total data published = 297 Total data published = 298 Total data published = 299 Total data published = 300 Total data published = 301 Total data published = 302 Total data published = 303 Total data published = 304 Total data published = 305 Total data published = 306 Total data published = 307 Total data published = 308 Total data published = 309 Total data published = 310 Total data published = 311 Total data published = 312 Total data published = 313 Total data published = 314 Total data published = 315 Total data published = 316 Total data published = 317 Total data published = 318 Total data published = 319 Total data published = 320 Total data published = 321 Total data published = 322 Total data published = 323 Total data published = 324 Total data published = 325 Total data published = 326 Total data published = 327 Total data published = 328 Total data published = 329 Total data published = 330 Total data published = 331 Total data published = 332 Total data published = 333 Total data published = 334 Total data published = 335 Total data published = 336 Total data published = 337 Total data published = 338 Total data published = 339 Total data published = 340 Total data published = 341 Total data published = 342 Total data published = 343 Total data published = 344 Total data published = 345 Total data published = 346 Total data published = 347 Total data published = 348 Total data published = 349 Total data published = 350 Total data published = 351 Total data published = 352 Total data published = 353 Total data published = 354 Total data published = 355 Total data published = 356 Total data published = 357 Total data published = 358 Total data published = 359 Total data published = 360 Total data published = 361 Total data published = 362 Total data published = 363 Total data published = 364 Total data published = 365 Total data published = 366 Total data published = 367 Total data published = 368 Total data published = 369 Total data published = 370 Total data published = 371 Total data published = 372 Total data published = 373 Total data published = 374 Total data published = 375 Total data published = 376 Total data published = 377 Total data published = 378 Total data published = 379 Total data published = 380 Total data published = 381 Total data published = 382 Total data published = 383 Total data published = 384 Total data published = 385 Total data published = 386 Total data published = 387 Total data published = 388 Total data published = 389 Total data published = 390 Total data published = 391 Total data published = 392 Total data published = 393 Total data published = 394 Total data published = 395 Total data published = 396 Total data published = 397 Total data published = 398 Total data published = 399 Total data published = 400 Total data published = 401 Total data published = 402 Total data published = 403 Total data published = 404 Total data published = 405 Total data published = 406 Total data published = 407 Total data published = 408 Total data published = 409 Total data published = 410 Total data published = 411 Total data published = 412 Total data published = 413 Total data published = 414 Total data published = 415 Total data published = 416 Total data published = 417 Total data published = 418 Total data published = 419 Total data published = 420 Total data published = 421 Total data published = 422 Total data published = 423 Total data published = 424 Total data published = 425 Total data published = 426 Total data published = 427 Total data published = 428 Total data published = 429 Total data published = 430 Total data published = 431 Total data published = 432 Total data published = 433 Total data published = 434 Total data published = 435 Total data published = 436 Total data published = 437 Total data published = 438 Total data published = 439 Total data published = 440 Total data published = 441 Total data published = 442 Total data published = 443 Total data published = 444 Total data published = 445 Total data published = 446 Total data published = 447 Total data published = 448 Total data published = 449 Total data published = 450 Total data published = 451 Total data published = 452 Total data published = 453 Total data published = 454 Total data published = 455 Total data published = 456 Total data published = 457 Total data published = 458 Total data published = 459 Total data published = 460 Total data published = 461 Total data published = 462 Total data published = 463 Total data published = 464 Total data published = 465 Total data published = 466 Total data published = 467 Total data published = 468 Total data published = 469 Total data published = 470 Total data published = 471 Total data published = 472 Total data published = 473 Total data published = 474 Total data published = 475 Total data published = 476 Total data published = 477 Total data published = 478 Total data published = 479 Total data published = 480 Total data published = 481 Total data published = 482 Total data published = 483 Total data published = 484 Total data published = 485 Total data published = 486 Total data published = 487 Total data published = 488 Total data published = 489 Total data published = 490 Total data published = 491 Total data published = 492 Total data published = 493 Total data published = 494 Total data published = 495 Total data published = 496 Total data published = 497 Total data published = 498 Total data published = 499 Total data published = 500 Total data published = 501 Total data published = 502 Total data published = 503 Total data published = 504 Total data published = 505 Total data published = 506 Total data published = 507 Total data published = 508 Total data published = 509 Total data published = 510 Total data published = 511 Total data published = 512 Total data published = 513 Total data published = 514 Total data published = 515 Total data published = 516 Total data published = 517 Total data published = 518 Total data published = 519 Total data published = 520 Total data published = 521 Total data published = 522 Total data published = 523 Total data published = 524 Total data published = 525 Total data published = 526 Total data published = 527 Total data published = 528 Total data published = 529 Total data published = 530 Total data published = 531 Total data published = 532 Total data published = 533 Total data published = 534 Total data published = 535 Total data published = 536 Total data published = 537 Total data published = 538 Total data published = 539 Total data published = 540 Total data published = 541 Total data published = 542 Total data published = 543 Total data published = 544 Total data published = 545 Total data published = 546 Total data published = 547 Total data published = 548 Total data published = 549 Total data published = 550 Total data published = 551 Total data published = 552 Total data published = 553 Total data published = 554 Total data published = 555 Total data published = 556 Total data published = 557 Total data published = 558 Total data published = 559 Total data published = 560 Total data published = 561 Total data published = 562 Total data published = 563 Total data published = 564 Total data published = 565 Total data published = 566 Total data published = 567 Total data published = 568 Total data published = 569 Total data published = 570 Total data published = 571 Total data published = 572 Total data published = 573 Total data published = 574 Total data published = 575 Total data published = 576 Total data published = 577 Total data published = 578 Total data published = 579 Total data published = 580 Total data published = 581 Total data published = 582 Total data published = 583 Total data published = 584 Total data published = 585 Total data published = 586 Total data published = 587 Total data published = 588 Total data published = 589 Total data published = 590 Total data published = 591 Total data published = 592 Total data published = 593 Total data published = 594 Total data published = 595 Total data published = 596 Total data published = 597 Total data published = 598 Total data published = 599 Total data published = 600 Total data published = 601 Total data published = 602 Total data published = 603 Total data published = 604 Total data published = 605 Total data published = 606 Total data published = 607 Total data published = 608 Total data published = 609 Total data published = 610 Total data published = 611 Total data published = 612 Total data published = 613 Total data published = 614 Total data published = 615 Total data published = 616 Total data published = 617 Total data published = 618 Total data published = 619 Total data published = 620 Total data published = 621 Total data published = 622 Total data published = 623 Total data published = 624 Total data published = 625 Total data published = 626 Total data published = 627 Total data published = 628 Total data published = 629 Total data published = 630 Total data published = 631 Total data published = 632 Total data published = 633 Total data published = 634 Total data published = 635 Total data published = 636 Total data published = 637 Total data published = 638 Total data published = 639 Total data published = 640 Total data published = 641 Total data published = 642 Total data published = 643 Total data published = 644 Total data published = 645 Total data published = 646 Total data published = 647 Total data published = 648 Total data published = 649 Total data published = 650 Total data published = 651 Total data published = 652 Total data published = 653 Total data published = 654 Total data published = 655 Total data published = 656 Total data published = 657 Total data published = 658 Total data published = 659 Total data published = 660 Total data published = 661 Total data published = 662 Total data published = 663 Total data published = 664 Total data published = 665 Total data published = 666 Total data published = 667 Total data published = 668 Total data published = 669 Total data published = 670 Total data published = 671 Total data published = 672 Total data published = 673 Total data published = 674 Total data published = 675 Total data published = 676 Total data published = 677 Total data published = 678 Total data published = 679 Total data published = 680 Total data published = 681 Total data published = 682 Total data published = 683 Total data published = 684 Total data published = 685 Total data published = 686 Total data published = 687 Total data published = 688 Total data published = 689 Total data published = 690 Total data published = 691 Total data published = 692 Total data published = 693 Total data published = 694 Total data published = 695 Total data published = 696 Total data published = 697 Total data published = 698 Total data published = 699 Total data published = 700 Total data published = 701 Total data published = 702 Total data published = 703 Total data published = 704 Total data published = 705 Total data published = 706 Total data published = 707 Total data published = 708 Total data published = 709 Total data published = 710 Total data published = 711 Total data published = 712 Total data published = 713 Total data published = 714 Total data published = 715 Total data published = 716 Total data published = 717 Total data published = 718 Total data published = 719 Total data published = 720 Total data published = 721 Total data published = 722 Total data published = 723 Total data published = 724 Total data published = 725 Total data published = 726 Total data published = 727 Total data published = 728 Total data published = 729 Total data published = 730 Total data published = 731 Total data published = 732 Total data published = 733 Total data published = 734 Total data published = 735 Total data published = 736 Total data published = 737 Total data published = 738 Total data published = 739 Total data published = 740 Total data published = 741 Total data published = 742 Total data published = 743 Total data published = 744 Total data published = 745 Total data published = 746 Total data published = 747 Total data published = 748 Total data published = 749 Total data published = 750 Total data published = 751 Total data published = 752 Total data published = 753 Total data published = 754 Total data published = 755 Total data published = 756 Total data published = 757 Total data published = 758 Total data published = 759 Total data published = 760 Total data published = 761 Total data published = 762 Total data published = 763 Total data published = 764 Total data published = 765 Total data published = 766 Total data published = 767 Total data published = 768 Total data published = 769 Total data published = 770 Total data published = 771 Total data published = 772 Total data published = 773 Total data published = 774 Total data published = 775 Total data published = 776 Total data published = 777 Total data published = 778 Total data published = 779 Total data published = 780 Total data published = 781 Total data published = 782 Total data published = 783 Total data published = 784 Total data published = 785 Total data published = 786 Total data published = 787 Total data published = 788 Total data published = 789 Total data published = 790 Total data published = 791 Total data published = 792 Total data published = 793 Total data published = 794 Total data published = 795 Total data published = 796 Total data published = 797 Total data published = 798 Total data published = 799 Total data published = 800 Total data published = 801 Total data published = 802 Total data published = 803 Total data published = 804 Total data published = 805 Total data published = 806 Total data published = 807 Total data published = 808 Total data published = 809 Total data published = 810 Total data published = 811 Total data published = 812 Total data published = 813 Total data published = 814 Total data published = 815 Total data published = 816 Total data published = 817 Total data published = 818 Total data published = 819 Total data published = 820 Total data published = 821 Total data published = 822 Total data published = 823 Total data published = 824 Total data published = 825 Total data published = 826 Total data published = 827 Total data published = 828 Total data published = 829 Total data published = 830 Total data published = 831 Total data published = 832 Total data published = 833 Total data published = 834 Total data published = 835 Total data published = 836 Total data published = 837 Total data published = 838 Total data published = 839 Total data published = 840 Total data published = 841 Total data published = 842 Total data published = 843 Total data published = 844 Total data published = 845 Total data published = 846 Total data published = 847 Total data published = 848 Total data published = 849 Total data published = 850 Total data published = 851 Total data published = 852 Total data published = 853 Total data published = 854 Total data published = 855 Total data published = 856 Total data published = 857 Total data published = 858 Total data published = 859 Total data published = 860 Total data published = 861 Total data published = 862 Total data published = 863 Total data published = 864 Total data published = 865 Total data published = 866 Total data published = 867 Total data published = 868 Total data published = 869 Total data published = 870 Total data published = 871 Total data published = 872 Total data published = 873 Total data published = 874 Total data published = 875 Total data published = 876 Total data published = 877 Total data published = 878 Total data published = 879 Total data published = 880 Total data published = 881 Total data published = 882 Total data published = 883 Total data published = 884 Total data published = 885 Total data published = 886 Total data published = 887 Total data published = 888 Total data published = 889 Total data published = 890 Total data published = 891 Total data published = 892 Total data published = 893 Total data published = 894 Total data published = 895 Total data published = 896 Total data published = 897 Total data published = 898 Total data published = 899 Total data published = 900 Total data published = 901 Total data published = 902 Total data published = 903 Total data published = 904 Total data published = 905 Total data published = 906 Total data published = 907 Total data published = 908 Total data published = 909 Total data published = 910 Total data published = 911 Total data published = 912 Total data published = 913 Total data published = 914 Total data published = 915 Total data published = 916 Total data published = 917 Total data published = 918 Total data published = 919 Total data published = 920 Total data published = 921 Total data published = 922 Total data published = 923 Total data published = 924 Total data published = 925 Total data published = 926 Total data published = 927 Total data published = 928 Total data published = 929 Total data published = 930 Total data published = 931 Total data published = 932 Total data published = 933 Total data published = 934 Total data published = 935 Total data published = 936 Total data published = 937 Total data published = 938 Total data published = 939 Total data published = 940 Total data published = 941 Total data published = 942 Total data published = 943 Total data published = 944 Total data published = 945 Total data published = 946 Total data published = 947 Total data published = 948 Total data published = 949 Total data published = 950 Total data published = 951 Total data published = 952 Total data published = 953 Total data published = 954 Total data published = 955 Total data published = 956 Total data published = 957 Total data published = 958 Total data published = 959 Total data published = 960 Total data published = 961 Total data published = 962 Total data published = 963 Total data published = 964 Total data published = 965 Total data published = 966 Total data published = 967 Total data published = 968 Total data published = 969 Total data published = 970 Total data published = 971 Total data published = 972 Total data published = 973 Total data published = 974 Total data published = 975 Total data published = 976 Total data published = 977 Total data published = 978 Total data published = 979 Total data published = 980 Total data published = 981 Total data published = 982 Total data published = 983 Total data published = 984 Total data published = 985 Total data published = 986 Total data published = 987 Total data published = 988 Total data published = 989 Total data published = 990 Total data published = 991 Total data published = 992 Total data published = 993 Total data published = 994 Total data published = 995 Total data published = 996 Total data published = 997 Total data published = 998 Total data published = 999 Total data published = 1000undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":1,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":1,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":1,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":2,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":2,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":3,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":1,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":3,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":4,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":1,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":4,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":2,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":5,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":3,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":2,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":3,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":6,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":5,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":4,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":4,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":2,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":5,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":7,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":8,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":3,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":6,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":7,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":9,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":10,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":4,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":5,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":6,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":6,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":5,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":7,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":11,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":12,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":8,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":9,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":10,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":13,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":6,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":11,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":8,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":2,\"count\":{\"count\":14,\"id\":2,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":7,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":7,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":3,\"count\":{\"count\":12,\"id\":3,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":9,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":8,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":8,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":9,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":10,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":10,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":11,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":4,\"count\":{\"count\":12,\"id\":4,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":11,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":9,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":0,\"count\":{\"count\":12,\"id\":0,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":10,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : "{\"video_id\":1,\"count\":{\"count\":11,\"id\":1,\"changed\":true}}"
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}
+ clientMessageCount is : {}undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
